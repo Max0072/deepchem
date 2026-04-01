@@ -382,6 +382,7 @@ def test_clm_pretraining(hf_tokenizer, smiles_regression_dataset):
 
     assert loss
 
+
 @pytest.mark.hf
 def test_load_from_hf_checkpoint_clm(hf_tokenizer):
     """Test loading a causal language model from a HuggingFace checkpoint."""
